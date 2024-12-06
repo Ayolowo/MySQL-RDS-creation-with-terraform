@@ -29,7 +29,7 @@ resource "aws_security_group" "rds_sg" {
     from_port   = 3306
     to_port     = 3306
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = [aws_instance.web.private_ip] # Should restrict to EC2 IP (e.g., x.x.x.x/32)
   }
 
 }

@@ -42,7 +42,7 @@ resource "aws_security_group" "ec2_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"] # should be your personal IP address /32 
+    cidr_blocks = ["0.0.0.0/0"] # Should restrict to your IP (e.g., x.x.x.x/32)
   }
 
   egress {
