@@ -1,6 +1,6 @@
 # Terraform Project: VPC with EC2 and RDS Setup
 
-![MYSQLRDS](./MYARC.png)
+![MYSQLRDS](./arc-diagram.png)
 
 In this Terraform project, I created a robust and secure AWS infrastructure that includes a Virtual Private Cloud (VPC) with both public and private subnets, an EC2 instance for administrative access, and a MySQL RDS instance for database management. Below is a detailed explanation of the infrastructure setup and its components.
 
