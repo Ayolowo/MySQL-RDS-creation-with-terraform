@@ -2,7 +2,7 @@
 
 ![MYSQLRDS](./arc-diagram.png)
 
-This project provisions a secure AWS infrastructure using Terraform and CI/CD practices. It includes a VPC, subnets, an EC2 instance, an RDS MySQL database, and a NAT Gateway for private subnet internet access.
+This project provisions a secure AWS infrastructure using Terraform and CI/CD practices. It includes a VPC, subnets, an EC2 instance, an RDS MySQL database, an Internet Gateway, and a NAT Gateway for private subnet internet access.
 
 ## Detailed guides:
 
